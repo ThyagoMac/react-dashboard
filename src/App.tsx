@@ -1,3 +1,9 @@
+import { Button } from "./components/ui/button";
+
 export function App() {
-  return <h1>pipi</h1>;
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  );
 }
